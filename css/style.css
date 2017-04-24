@@ -1,0 +1,41 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#spaceinvader {
+   position: relative;
+}
+
+.row {
+   height: 80px;
+}
+
+.vb {
+   height: 100%;
+   background-color: gray;
+   border: 2px solid black;
+}
+
+.db {
+   height: 100%;
+   background-color: lightgreen;
+}
+
+@media screen and (max-width: 180px) {
+  .row {
+     height: 15px;
+  }
+}
+
+@media screen and (max-width: 768) {
+  .row {
+     height: 60px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .row {
+     height: 30px;
+  }
+}
